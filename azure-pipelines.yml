@@ -16,5 +16,5 @@ steps:
   - script: mvn clean install
     displayName: 'Build with Maven'
 
-  - script: java -jar arget/MavenJenkins1-1.0-SNAPSHOT.jar
+  - script: java -jar target/MavenJenkins1-1.0-SNAPSHOT.jar
     displayName: 'Run the JAR file'
